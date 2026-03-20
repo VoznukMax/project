@@ -1,0 +1,3136 @@
+title: Адаптивная выдача 20 вопросов из Python (тренировка)
+description: 
+mold: training
+tasks:
+- id: tid1
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой тип данных используется для хранения целых чисел в Python?**
+    1) `int`
+    2) `float`
+    3) `str`
+    4) `bool`
+  answer: "1"
+
+- id: tid2
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как в Python обозначается тип данных для дробных чисел?**
+  answer: "float"
+
+- id: tid3
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой оператор используется для сложения в Python?**
+    1) `-`
+    2) `+`
+    3) `*`
+    4) `/`
+  answer: "2"
+
+- id: tid4
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как вывести текст на экран в Python?**
+  answer: "print()"
+
+- id: tid5
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой символ используется для комментариев в Python?**
+    1) `#`
+    2) `//`
+    3) `/*`
+    4) `--`
+  answer: "1"
+
+- id: tid6
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как объявить строку в Python? Используйте двойные кавычки.**
+  answer: "\"text\""
+
+- id: tid7
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой оператор означает «не равно» в Python?**
+    1) `==`
+    2) `=`
+    3) `!=`
+    4) `<>`
+  answer: "3"
+
+- id: tid8
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какая функция преобразует строку в целое число?**
+  answer: "int()"
+
+- id: tid9
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой оператор выполняет деление без остатка (целочисленное деление)?**
+    1) `/`
+    2) `%`
+    3) `//`
+    4) `**`
+  answer: "3"
+
+- id: tid10
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как создать пустой список в Python?**
+  answer: "[]"
+
+- id: tid11
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой метод добавляет элемент в конец списка?**
+    1) `append()`
+    2) `add()`
+    3) `insert()`
+    4) `push()`
+  answer: "1"
+
+- id: tid12
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как получить длину строки или списка?**
+  answer: "len()"
+
+- id: tid13
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой оператор возводит число в степень?**
+    1) `^`
+    2) `**`
+    3) `pow`
+    4) `exp`
+  answer: "2"
+
+- id: tid14
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как записать логическое «И» в Python?**
+  answer: "and"
+
+- id: tid15
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой тип данных возвращает выражение `5 > 3`?**
+    1) `int`
+    2) `str`
+    3) `bool`
+    4) `float`
+  answer: "3"
+
+- id: tid16
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как вызвать функцию `func` без аргументов?**
+  answer: "func()"
+
+- id: tid17
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой оператор проверяет равенство в Python?**
+    1) `=`
+    2) `==`
+    3) `===`
+    4) `:=`
+  answer: "2"
+
+- id: tid18
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как обозначить логическую истину в Python?**
+  answer: "True"
+
+- id: tid19
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой цикл используется для перебора элементов списка?**
+    1) `while`
+    2) `for`
+    3) `do‑while`
+    4) `repeat`
+  answer: "2"
+
+- id: tid20
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как пропустить текущую итерацию цикла?**
+  answer: "continue"
+
+- id: tid21
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой оператор прерывает выполнение цикла?**
+    1) `break`
+    2) `stop`
+    3) `exit`
+    4) `return`
+  answer: "1"
+
+- id: tid22
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как создать словарь с одной парой ключ‑значение `a: 1`?**
+  answer: '{"a": 1}'
+
+- id: tid23
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой метод возвращает значение по ключу из словаря?**
+    1) `get()`
+    2) `find()`
+    3) `search()`
+    4) `value()`
+  answer: "1"
+
+- id: tid24
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Что вернёт `type("hello")`?**
+  answer: "str"
+
+- id: tid25
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой оператор возвращает остаток от деления?**
+    1) `/`
+    2) `//`
+    3) `%`
+    4) `mod`
+  answer: "3"
+
+- id: tid26
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как проверить, есть ли элемент в списке?**
+  answer: "in"
+
+- id: tid27
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой оператор обозначает логическое «ИЛИ»?**
+    1) `or`
+    2) `||`
+    3) `|`
+    4) `xor`
+  answer: "1"
+
+- id: tid28
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как преобразовать число в строку?**
+  answer: "str()"
+
+- id: tid29
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой символ разделяет аргументы функции?**
+    1) `,`
+    2) `;`
+    3) `:`
+    4) `.`
+  answer: "1"
+
+- id: tid30
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как объявить переменную `x` со значением `5`?**
+  answer: "x = 5"
+
+- id: tid31
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой оператор используется для умножения?**
+    1) `+`
+    2) `-`
+    3) `*`
+    4) `/`
+  answer: "3"
+
+- id: tid32
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как получить первый элемент списка `my_list`?**
+  answer: "my_list[0]"
+
+- id: tid33
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой метод удаляет последний элемент списка?**
+    1) `remove()`
+    2) `pop()`
+    3) `delete()`
+    4) `clear()`
+  answer: "2"
+
+- id: tid34
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как записать логическое «НЕ» в Python?**
+  answer: "not"
+
+- id: tid35
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой тип данных у значения `"42"`?**
+    1) `int`
+    2) `float`
+    3) `str`
+    4) `bool`
+  answer: "3"
+
+- id: tid36
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как создать кортеж с одним элементом `1`?**
+  answer: "(1,)"
+
+- id: tid37
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой оператор выполняет деление с остатком (получает дробный результат)?**
+    1) `//`
+    2) `/`
+    3) `%`
+    4) `**`
+  answer: "2"
+
+- id: tid38
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как проверить тип переменной `x`?**
+  answer: "type(x)"
+
+- id: tid39
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Какой цикл выполняется, пока условие истинно?**
+    1) `for`
+    2) `while`
+    3) `do‑while`
+    4) `repeat`
+  answer: "2"
+
+- id: tid40
+  difficulty: 1
+  p: 0.1
+  alpha: 1
+  beta: 9
+  text: |
+    **Как завершить функцию и вернуть значение?**
+  answer: "return"
+
+- id: tid41
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как получить последний элемент списка `lst`?**
+  answer: "lst[-1]"
+
+- id: tid42
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой метод добавляет элемент в множество?**
+    1) `add()`
+    2) `append()`
+    3) `insert()`
+    4) `push()`
+  answer: "1"
+
+- id: tid43
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Что выведет `print(len("hello"))`?**
+  answer: "5"
+
+- id: tid44
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой оператор проверяет, что значение меньше или равно?**
+    1) `<`
+    2) `<=`
+    3) `>`
+    4) `>=`
+  answer: "2"
+
+- id: tid45
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как создать пустой словарь?**
+  answer: "{}"
+
+- id: tid46
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой тип данных у `True`?**
+    1) `int`
+    2) `str`
+    3) `bool`
+    4) `float`
+  answer: "3"
+
+- id: tid47
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как преобразовать число `3.14` в целое?**
+  answer: "int(3.14)"
+
+- id: tid48
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой метод удаляет элемент из списка по значению?**
+    1) `remove()`
+    2) `pop()`
+    3) `delete()`
+    4) `clear()`
+  answer: "1"
+
+- id: tid49
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Что вернёт `5 // 2`?**
+  answer: "2"
+
+- id: tid50
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Что выведет `print("Hello\nWorld\t!")`?**
+    1) Hello (новая строка) World (табуляция) !
+    2) Hello\nWorld\t!
+    3) Hello World !
+    4) Ошибку синтаксиса
+  answer: "1"
+
+- id: tid51
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой оператор выполняет конкатенацию строк?**
+    1) `+`
+    2) `*`
+    3) `-`
+    4) `/`
+  answer: "1"
+
+- id: tid52
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как проверить, является ли `x` числом с плавающей точкой?**
+  answer: "isinstance(x, float)"
+
+- id: tid53
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой метод возвращает копию словаря?**
+    1) `copy()`
+    2) `clone()`
+    3) `duplicate()`
+    4) `replicate()`
+  answer: "1"
+
+- id: tid54
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Что вернёт `bool([])`?**
+  answer: "False"
+
+- id: tid55
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как повторить строку `"hi"` три раза?**
+  answer: '"hi" * 3'
+
+- id: tid56
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой оператор используется для взятия остатка от деления?**
+    1) `/`
+    2) `//`
+    3) `%`
+    4) `**`
+  answer: "3"
+
+- id: tid57
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как объявить константу `PI` со значением `3.14`?**
+  answer: "PI = 3.14"
+
+- id: tid58
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой метод разбивает строку на список по разделителю?**
+    1) `split()`
+    2) `break()`
+    3) `divide()`
+    4) `separate()`
+  answer: "1"
+
+- id: tid59
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Что вернёт `abs(-5)`?**
+  answer: "5"
+
+- id: tid60
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как создать список из трёх нулей?**
+  answer: "[0] * 3"
+
+- id: tid61
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой оператор сравнивает типы объектов?**
+    1) `==`
+    2) `is`
+    3) `===`
+    4) `typeof`
+  answer: "2"
+
+- id: tid62
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как вывести тип переменной `x`?**
+  answer: "print(type(x))"
+
+- id: tid63
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой метод объединяет элементы списка в строку?**
+    1) `join()`
+    2) `merge()`
+    3) `concat()`
+    4) `combine()`
+  answer: "1"
+
+- id: tid64
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Что вернёт `round(3.7)`?**
+  answer: "4"
+
+- id: tid65
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как создать кортеж из одного элемента `42`?**
+  answer: "(42,)"
+
+- id: tid66
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой оператор создаёт новый список на основе существующего?**
+    1) `list()`
+    2) `new()`
+    3) `create()`
+    4) `build()`
+  answer: "1"
+
+- id: tid67
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как проверить, пуст ли список `my_list`?**
+  answer: "not my_list"
+
+- id: tid68
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой метод сортирует список на месте?**
+    1) `sort()`
+    2) `sorted()`
+    3) `order()`
+    4) `arrange()`
+  answer: "1"
+
+- id: tid69
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Что вернёт `max([1, 5, 3])`?**
+  answer: "5"
+
+- id: tid70
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как получить срез списка `lst` с первого по третий элемент (не включая третий)?**
+  answer: "lst[0:2]"
+
+- id: tid71
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой оператор проверяет принадлежность элемента множеству или списку?**
+    1) `in`
+    2) `contains`
+    3) `has`
+    4) `exists`
+  answer: "1"
+
+- id: tid72
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как создать множество из списка `[1, 2, 2, 3]`?**
+  answer: "set([1, 2, 2, 3])"
+
+- id: tid73
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Что выведет `print("Hi" * 2)`?**
+  answer: "HiHi"
+
+- id: tid74
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой метод удаляет ключ и возвращает его значение из словаря?**
+    1) `pop()`
+    2) `remove()`
+    3) `delete()`
+    4) `erase()`
+  answer: "1"
+
+- id: tid75
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как проверить, начинается ли строка `s` с подстроки `"hello"`?**
+  answer: 's.startswith("hello")'
+
+- id: tid76
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой результат вернёт `10 % 3`?**
+  answer: "1"
+
+- id: tid77
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как преобразовать список в кортеж?**
+  answer: "tuple(list)"
+
+- id: tid78
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Какой метод возвращает все ключи словаря?**
+    1) `keys()`
+    2) `get_keys()`
+    3) `list_keys()`
+    4) `all_keys()`
+  answer: "1"
+
+- id: tid79
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Что вернёт `bool(0)`?**
+  answer: "False"
+
+- id: tid80
+  difficulty: 2
+  p: 0.3
+  alpha: 3
+  beta: 7
+  text: |
+    **Как объявить функцию `greet` без параметров?**
+  answer: "def greet():"
+
+- id: tid81
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что вернёт выражение `list(zip([1, 2], ['a', 'b', 'c']))`?**
+    1) `[(1, 'a'), (2, 'b')]`
+    2) `[(1, 'a', 'c'), (2, 'b')]`
+    3) `[(1, 2), ('a', 'b', 'c')]`
+    4) `[(1, 'a', 'b'), (2, 'c')]`
+    5) `[]`
+  answer: "1"
+
+- id: tid82
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой метод удаляет ключ из словаря и возвращает его значение?**
+    1) `remove()`
+    2) `delete()`
+    3) `pop()`
+    4) `erase()`
+    5) `drop()`
+  answer: "3"
+
+- id: tid83
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что выведет `print(2 ** 3 ** 2)`?**
+    1) `512`
+    2) `64`
+    3) `18`
+    4) `729`
+    5) `8`
+  answer: "2"
+
+- id: tid84
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Как правильно создать лямбда‑функцию, возводящую аргумент в квадрат?**
+    1) `lambda x: x ** 2`
+    2) `lambda(x): x ** 2`
+    3) `lambda: x ** 2`
+    4) `x -> x ** 2`
+    5) `def lambda(x): return x ** 2`
+  answer: "1"
+
+- id: tid85
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что вернёт `set([1, 2, 2, 3]) | set([3, 4])`?**
+    1) `{1, 2, 3, 4}`
+    2) `{3}`
+    3) `{1, 2}`
+    4) `{1, 2, 4}`
+    5) `{2, 3}`
+  answer: "1"
+
+- id: tid86
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой оператор используется для распаковки словаря в аргументы функции?**
+    1) `*`
+    2) `**`
+    3) `...`
+    4) `@`
+    5) `#`
+  answer: "2"
+
+- id: tid87
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что сделает `my_list.sort(reverse=True)` с `my_list = [3, 1, 4, 2]`?**
+    1) `[1, 2, 3, 4]`
+    2) `[4, 3, 2, 1]`
+    3) `[3, 1, 4, 2]`
+    4) `[2, 4, 1, 3]`
+    5) `[4, 1, 3, 2]`
+  answer: "2"
+
+- id: tid88
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой результат вернёт `re.search(r'\d+', 'abc123def').group()`?**
+    1) `'123'`
+    2) `'abc'`
+    3) `'def'`
+    4) `'1'`
+    5) `None`
+  answer: "1"
+
+- id: tid89
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что произойдёт при выполнении `next(iter([]))`?**
+    1) Вернёт `None`
+    2) Вернёт пустую строку
+    3) Вызовет `StopIteration`
+    4) Вернёт `False`
+    5) Ничего не произойдёт
+  answer: "3"
+
+- id: tid90
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Как получить последний ключ словаря `d` в Python 3.7+ (где порядок сохраняется)?**
+    1) `d.keys()[-1]`
+    2) `list(d)[-1]`
+    3) `d[-1]`
+    4) `d.last()`
+    5) `d.get(-1)`
+  answer: "2"
+
+- id: tid91
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что вернёт `isinstance([1, 2, 3], list)`?**
+    1) `True`
+    2) `False`
+    3) `None`
+    4) `1`
+    5) Вызовет ошибку
+  answer: "1"
+
+- id: tid92
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой синтаксис используется для создания декоратора?**
+    1) `@decorator`
+    2) `#decorator`
+    3) `decorator()`
+    4) `$decorator`
+    5) `%decorator`
+  answer: "1"
+
+- id: tid93
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что делает `with open('file.txt') as f:`?**
+    1) Открывает файл и автоматически закрывает его после блока
+    2) Создаёт новый файл
+    3) Только открывает файл, не закрывая его
+    4) Удаляет файл
+    5) Копирует файл
+  answer: "1"
+
+- id: tid94
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой метод возвращает итератор по элементам словаря (ключ‑значение)?**
+    1) `items()`
+    2) `keys()`
+    3) `values()`
+    4) `elements()`
+    5) `pairs()`
+  answer: "1"
+
+- id: tid95
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что вернёт `all([True, False, True])`?**
+    1) `True`
+    2) `False`
+    3) `None`
+    4) `1`
+    5) Вызовет ошибку
+  answer: "2"
+
+- id: tid96
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Как создать генератор, выдающий квадраты чисел от 0 до 4?**
+    1) `(x ** 2 for x in range(5))`
+    2) `[x ** 2 for x in range(5)]`
+    3) `{x ** 2 for x in range(5)}`
+    4) `gen(x ** 2 for x in range(5))`
+    5) `generator(x ** 2 for x in range(5))`
+  answer: "1"
+
+- id: tid97
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что вернёт `sorted('python', reverse=True)`?**
+    1) `['y', 't', 'p', 'o', 'n', 'h']`
+    2) `['h', 'n', 'o', 'p', 't', 'y']`
+    3) `'ytponh'`
+    4) `['p', 'y', 't', 'h', 'o', 'n']`
+    5) `'nohtyp'`
+  answer: "1"
+
+- id: tid98
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что вернёт `list(filter(lambda x: x > 2, [1, 2, 3, 4]))`?**
+    1) `[3, 4]`
+    2) `[1, 2]`
+    3) `[2, 3, 4]`
+    4) `[]`
+    5) `[1, 2, 3, 4]`
+  answer: "1"
+
+- id: tid99
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой метод используется для добавления элементов из итерируемого объекта в множество?**
+    1) `add()`
+    2) `append()`
+    3) `update()`
+    4) `extend()`
+    5) `insert()`
+  answer: "3"
+
+- id: tid100
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что произойдёт при выполнении `int('10', 2)`?**
+    1) Вернёт `2`
+    2) Вернёт `10`
+    3) Вернёт `8`
+    4) Вернёт `16`
+    5) Вызовет ошибку
+  answer: "1"
+
+- id: tid101
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Как получить документацию функции `len` в интерактивном режиме?**
+    1) `help(len)`
+    2) `doc(len)`
+    3) `len.__doc__`
+    4) `info(len)`
+    5) `print_doc(len)`
+  answer: "1"
+
+- id: tid102
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что вернёт `''.join(map(str, range(3)))`?**
+    1) `'012'`
+    2) `'123'`
+    3) `'0 1 2'`
+    4) `[0, 1, 2]`
+    5) `'0,1,2'`
+  answer: "1"
+
+- id: tid103
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой оператор используется для перехвата исключений?**
+    1) `try`
+    2) `except`
+    3) `catch`
+    4) `handle`
+    5) `error`
+  answer: "2"
+
+- id: tid104
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что делает `super()` в методах класса?**
+    1) Вызывает метод родительского класса
+    2) Создаёт новый экземпляр
+    3) Возвращает все атрибуты класса
+    4) Удаляет объект
+    5) Инициализирует класс
+  answer: "1"
+
+- id: tid105
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой результат вернёт `ord('A') + ord('a')`?**
+    1) `65`
+    2) `97`
+    3) `162`
+    4) `194`
+    5) `32`
+  answer: "3"
+
+- id: tid106
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Как создать замороженное множество (неизменяемое)?**
+    1) `set([1, 2, 3])`
+    2) `frozen({1, 2, 3})`
+    3) `frozenset([1, 2, 3])`
+    4) `immutable_set([1, 2, 3])`
+    5) `const_set([1, 2, 3])`
+  answer: "3"
+
+- id: tid107
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что вернёт `re.sub(r'\d', 'X', 'a1b2c3')`?**
+    1) `'aXbXcX'`
+    2) `'abc'`
+    3) `'XXX'`
+    4) `'a1b2c3'`
+    5) `'X1X2X3'`
+  answer: "1"
+
+- id: tid108
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой метод словаря возвращает значение по ключу, создавая его с значением по умолчанию, если ключа нет?**
+    1) `get()`
+    2) `setdefault()`
+    3) `setdefaultvalue()`
+    4) `default()`
+    5) `setdefaultkey()`
+  answer: "2"
+
+- id: tid109
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что выведет `print([x for x in range(5) if x % 2])`?**
+    1) `[1, 3]`
+    2) `[0, 2, 4]`
+    3) `[1, 2, 3, 4]`
+    4) `[2, 4]`
+    5) `[]`
+  answer: "1"
+
+- id: tid110
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Как импортировать модуль `os` с псевдонимом `sys_os`?**
+    1) `import os as sys_os`
+    2) `import sys_os from os`
+    3) `alias os as sys_os`
+    4) `load os as sys_os`
+    5) `include os as sys_os`
+  answer: "1"
+
+- id: tid111
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что вернёт `chr(65) + chr(97)`?**
+    1) `'Aa'`
+    2) `'6597'`
+    3) `'AB'`
+    4) `'Za'`
+    5) `'aA'`
+  answer: "1"
+
+- id: tid112
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой метод удаляет и возвращает последний элемент списка?**
+    1) `pop()`
+    2) `remove()`
+    3) `delete()`
+    4) `extract()`
+    5) `last()`
+  answer: "1"
+
+- id: tid113
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что сделает `dict.fromkeys(['a', 'b'], 0)`?**
+    1) `{0: ['a', 'b']}`
+    2) `{'a': 0, 'b': 0}`
+    3) `{'a': None, 'b': None}`
+    4) `{0: 'a', 0: 'b'}`
+    5) Ошибку
+  answer: "2"
+
+- id: tid114
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой синтаксис используется для аннотации типа переменной `x` как `int`?**
+    1) `x: int`
+    2) `x int`
+    3) `int x`
+    4) `type(x) = int`
+    5) `x -> int`
+  answer: "1"
+
+- id: tid115
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой результат даст `list(map(lambda x: x+1, range(3)))`?**
+    1) `[1, 2, 3]`
+    2) `[0, 1, 2]`
+    3) `[2, 3, 4]`
+    4) `[1, 1, 1]`
+    5) `[]`
+  answer: "1"
+    
+- id: tid116
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что вернёт `len({x: x*2 for x in range(5)})`?**
+    1) `5`
+    2) `10`
+    3) `0`
+    4) `4`
+    5) `25`
+  answer: "1"
+
+- id: tid117
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Какой метод используется для безопасного получения значения из словаря с указанием значения по умолчанию?**
+    1) `get()`
+    2) `fetch()`
+    3) `retrieve()`
+    4) `access()`
+    5) `read()`
+  answer: "1"
+
+- id: tid118
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что произойдёт при выполнении `''.split()`?**
+    1) Вернёт `[]`
+    2) Вернёт `['']`
+    3) Вызовет ошибку
+    4) Вернёт `None`
+    5) Вернёт пустую строку
+  answer: "1"
+
+- id: tid119
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Как получить список всех атрибутов и методов объекта `obj`?**
+    1) `dir(obj)`
+    2) `list(obj)`
+    3) `attributes(obj)`
+    4) `methods(obj)`
+    5) `inspect(obj)`
+  answer: "1"
+
+- id: tid120
+  difficulty: 3
+  p: 0.5
+  alpha: 5
+  beta: 5
+  text: |
+    **Что вернёт выражение `bool(set())`?**
+    1) `True`
+    2) `False`
+    3) `None`
+    4) `0`
+    5) Вызовет ошибку
+  answer: "2"
+  
+
+- id: tid121
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что вернёт следующий код?**
+    ```python
+    from functools import lru_cache
+
+    @lru_cache(maxsize=None)
+    def fib(n):
+        if n < 2:
+            return n
+        return fib(n-1) + fib(n-2)
+
+    print(fib(10))
+    ```
+    1) `55`
+    2) `89`
+    3) `34`
+    4) Ошибка из‑за рекурсии
+    5) `None`
+  answer: "1"
+
+- id: tid122
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой результат даст выполнение следующего кода?**
+    ```python
+    class Meta(type):
+        def __new__(cls, name, bases, attrs):
+            attrs['value'] = len(name)
+            return super().__new__(cls, name, bases, attrs)
+
+    class A(metaclass=Meta):
+        pass
+
+    print(A.value)
+    ```
+    1) `1`
+    2) `2`
+    3) `3`
+    4) `4`
+    5) Ошибка
+  answer: "1"
+
+- id: tid123
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что произойдёт при выполнении следующего кода?**
+    ```python
+    import asyncio
+
+    async def coro():
+        await asyncio.sleep(0)
+        raise ValueError("Error")
+
+    try:
+        asyncio.run(coro())
+    except ValueError as e:
+        print(e)
+    ```
+    1) Выведет `"Error"`
+    2) Выведет `ValueError: Error`
+    3) Ничего не выведет
+    4) Вызовет `RuntimeError`
+    5) Зависнет
+  answer: "1"
+
+- id: tid124
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой будет результат выполнения следующего кода?**
+    ```python
+    a = [[]] * 3
+    a[0].append(1)
+    print(a)
+    ```
+    1) `[[1], [1], [1]]`
+    2) `[[1], [], []]`
+    3) `[[], [1], []]`
+    4) `[[1]]`
+    5) Ошибка
+  answer: "1"
+
+- id: tid125
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что вернёт `re.findall(r'(\d+)(?:\.(\d+))?', '123 45.67 89')`?**
+    1) `[('123', ''), ('45', '67'), ('89', '')]`
+    2) `['123', '45', '67', '89']`
+    3) `[('123',), ('45', '67'), ('89',)]`
+    4) `['123', '45.67', '89']`
+    5) `[('123', None), ('45', '67'), ('89', None)]`
+  answer: "1"
+
+- id: tid126
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Как правильно реализовать контекстный менеджер с использованием класса?**
+    1) Реализовать методы `__enter__` и `__exit__`
+    2) Реализовать метод `__context__`
+    3) Использовать декоратор `@contextmanager`
+    4) Реализовать методы `open` и `close`
+    5) Наследовать от `ContextManager`
+  answer: "1"
+
+- id: tid127
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что выведет следующий код?**
+    ```python
+    x = 0
+    def outer():
+        x = 1
+        def inner():
+            nonlocal x
+            x += 1
+            print(x)
+        inner()
+        print(x)
+    outer()
+    print(x)
+    ```
+    1) `2 2 0`
+    2) `2 1 0`
+    3) `2 2 2`
+    4) `1 2 0`
+    5) Ошибка
+  answer: "1"
+
+- id: tid128
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой результат вернёт `collections.defaultdict(list)[0].append(1)`?**
+    1) Создаст ключ `0` со значением `[1]`
+    2) Вызовет `KeyError`
+    3) Вернёт `None` без изменений словаря
+    4) Добавит `1` к существующему списку по ключу `0`
+    5) Создаст пустой список по ключу `0`
+  answer: "1"
+
+- id: tid129
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что сделает следующий код?**
+    ```python
+    import weakref
+
+    class MyClass:
+        pass
+
+    obj = MyClass()
+    ref = weakref.ref(obj)
+    del obj
+    print(ref())
+    ```
+    1) Выведет `None`
+    2) Выведет объект `MyClass`
+    3) Вызовет `ReferenceError`
+    4) Ничего не сделает
+    5) Выведет `<weakref at ...>`
+  answer: "1"
+
+- id: tid130
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой результат даст `itertools.groupby(sorted('aabbc'), key=lambda x: x)`?**
+    1) Итератор групп с ключами `'a'`, `'b'`, `'c'`
+    2) Список кортежей `(ключ, список элементов)`
+    3) Словарь `{ключ: список элементов}`
+    4) Ошибку из‑за отсутствия `key`
+    5) Пустой итератор
+  answer: "1"
+
+- id: tid131
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что произойдёт при выполнении `json.dumps({1: 'a', 2: 'b'}, separators=(',', ':'))`?**
+    1) `'{"1":"a","2":"b"}'`
+    2) `'{1:a,2:b}'`
+    3) `'{"1": "a", "2": "b"}'`
+    4) `'{1:"a",2:"b"}'`
+    5) Ошибка из‑за некорректных разделителей
+  answer: "1"
+
+- id: tid132
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Как получить все подклассы класса `Base` рекурсивно?**
+    1) `Base.__subclasses__()`
+    2) Рекурсивный обход `Base.__subclasses__()` и их подклассов
+    3) `inspect.getsubclasses(Base)`
+    4) `type.get_subclasses(Base)`
+    5) Через метакласс
+  answer: "2"
+
+- id: tid133
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что вернёт `asyncio.gather(asyncio.sleep(1, 1), asyncio.sleep(0.5, 2))`?**
+    1) `[1, 2]` после 1 секунды
+    2) `[2, 1]` после 0.5 секунды
+    3) `[1, 2]` после 1.5 секунд
+    4) `[2]` после 0.5 секунды
+    5) Ошибку
+  answer: "1"
+  
+
+- id: tid134
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что выведет следующий код?**
+    ```python
+    import sys
+
+    class Context:
+        def __enter__(self):
+            return self
+        def __exit__(self, exc_type, exc_val, exc_tb):
+            if exc_type is ValueError:
+                print("Caught ValueError")
+                return True
+            return False
+
+    with Context():
+        sys.exit(1)
+    print("After with")
+    ```
+    1) Ничего не выведет
+    2) Выведет `"Caught ValueError"`
+    3) Выведет `"After with"`
+    4) Завершит работу без вывода
+    5) Выведет ошибку
+  answer: "4"
+
+- id: tid135
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой результат даст следующий код?**
+    ```python
+    from collections import namedtuple
+
+    Point = namedtuple('Point', 'x y')
+    p = Point(1, 2)
+    print(p.x + p.y)
+    ```
+    1) `3`
+    2) Ошибка импорта
+    3) Ошибка создания namedtuple
+    4) `None`
+    5) `(1, 2)`
+  answer: "1"
+
+- id: tid136
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что вернёт `asyncio.run(asyncio.gather(*[asyncio.sleep(i, i) for i in range(3)]))`?**
+    1) `[0, 1, 2]` после 2 секунд
+    2) `[2, 1, 0]` после 3 секунд
+    3) `[0, 1, 2]` сразу
+    4) `[2]` после 2 секунд
+    5) Ошибку
+  answer: "1"
+
+- id: tid137
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Как правильно использовать `dataclass` с наследованием?**
+    ```python
+    from dataclasses import dataclass
+
+    @dataclass
+    class A:
+        x: int
+
+    @dataclass
+    class B(A):
+        y: int
+    ```
+    1) Код корректен и работает как ожидается
+    2) Нужно добавить `super().__init__()` в `B`
+    3) `dataclass` не поддерживает наследование
+    4) Нужно указать `init=False` в `A`
+    5) Нужно явно определить `__init__` в `B`
+  answer: "1"
+
+- id: tid138
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что произойдёт при выполнении следующего кода?**
+    ```python
+    import threading
+
+    lock = threading.Lock()
+    lock.acquire()
+    lock.acquire()  # Второй вызов
+    ```
+    1) Зависнет на втором вызове
+    2) Успешно приобретёт блокировку дважды
+    3) Вызовет `RuntimeError`
+    4) Вернёт `False` на втором вызове
+    5) Освободит первую блокировку
+  answer: "1"
+
+- id: tid139
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой результат вернёт `re.sub(r'(\w)(\w)', r'\2\1', 'abc')`?**
+    1) `'bac'`
+    2) `'acb'`
+    3) `'bca'`
+    4) `'abc'`
+    5) `'cba'`
+  answer: "1"
+
+- id: tid140
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что сделает следующий код?**
+    ```python
+    class Descriptor:
+        def __get__(self, obj, objtype=None):
+            return "value"
+
+    class MyClass:
+        attr = Descriptor()
+
+    obj = MyClass()
+    print(obj.attr)
+    obj.attr = "new"
+    print(obj.attr)
+    ```
+    1) Выведет `"value"` дважды
+    2) Выведет `"value"`, затем `"new"`
+    3) Выведет `"new"` дважды
+    4) Вызовет ошибку при присваивании
+    5) Выведет `"value"`, затем ошибку
+  answer: "1"
+
+- id: tid141
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Как получить байт‑код функции `func`?**
+    1) `func.__code__.co_code`
+    2) `func.bytecode`
+    3) `compile(func)`
+    4) `dis.get_bytecode(func)`
+    5) `func.code`
+  answer: "1"
+
+- id: tid142
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что вернёт следующий код?**
+    ```python
+    d = {'a': 1}
+    d.update({'a': 2, 'b': 3})
+    d.setdefault('c', 4)
+    d['d'] = d.setdefault('e', 5)
+    print(d)
+    ```
+    1) `{'a': 2, 'b': 3, 'c': 4, 'd': 5, 'e': 5}`
+    2) `{'a': 1, 'b': 3, 'c': 4, 'd': 5, 'e': 5}`
+    3) `{'a': 2, 'b': 3, 'c': 4}`
+    4) `{'a': 2, 'b': 3, 'c': 4, 'd': None}`
+    5) Ошибка
+  answer: "1"
+
+- id: tid143
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой результат даст `itertools.chain.from_iterable([[1, 2], [3, 4]])`?**
+    1) Итератор с элементами `1, 2, 3, 4`
+    2) Список `[1, 2, 3, 4]`
+    3) Итератор с элементами `[1, 2], [3, 4]`
+    4) Кортеж `(1, 2, 3, 4)`
+    5) Ошибку из‑за разных типов
+  answer: "1"
+
+- id: tid144
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что произойдёт при выполнении `pickle.dumps(lambda x: x)`?**
+    1) Сериализует лямбда‑функцию
+    2) Вызовет `PicklingError`
+    3) Вернёт пустую строку
+    4) Создаст заглушку функции
+    5) Сохранит байт‑код функции
+  answer: "2"
+
+- id: tid145
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Как правильно обработать исключение в асинхронном генераторе?**
+    ```python
+    async def agen():
+        try:
+            yield 1
+            raise ValueError("Error")
+        except ValueError:
+            yield 2
+    ```
+    1) Вернёт `1`, затем `2`
+    2) Вернёт только `1`
+    3) Выбросит `ValueError` без выдачи `2`
+    4) Зависнет
+    5) Вызовет `StopAsyncIteration`
+  answer: "1"
+
+
+- id: tid146
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что вернёт `hash((1, [2, 3]))`?**
+    1) Числовой хэш
+    2) Ошибку `TypeError`
+    3) Ошибку `ValueError`
+    4) `None`
+    5) Список хэшей
+  answer: "2"
+
+- id: tid147
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой результат даст следующий код?**
+    ```python
+    import weakref
+
+    class A:
+        pass
+
+    obj = A()
+    ref = weakref.ref(obj)
+    del obj
+    print(ref() is None)
+    ```
+    1) `True`
+    2) `False`
+    3) Ошибка `ReferenceError`
+    4) `None`
+    5) `<weakref at ...>`
+  answer: "1"
+
+- id: tid148
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что произойдёт при выполнении следующего кода?**
+    ```python
+    from dataclasses import dataclass, field
+
+    @dataclass
+    class Point:
+        x: int
+        y: int = field(default_factory=lambda: 0)
+
+    p = Point(1)
+    print(p)
+    ```
+    1) Выведет `Point(x=1, y=0)`
+    2) Вызовет `TypeError` из‑за `default_factory`
+    3) Выведет `Point(x=1)`
+    4) Вызовет `ValueError`
+    5) Создаст объект без `y`
+  answer: "1"
+
+- id: tid149
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Как правильно использовать `ThreadPoolExecutor` для параллельного выполнения функций?**
+    ```python
+    from concurrent.futures import ThreadPoolExecutor
+
+    def task(n):
+        return n ** 2
+    ```
+    1) С помощью `executor.map()` или `executor.submit()`
+    2) Через `executor.run()`
+    3) Используя `executor.execute()`
+    4) Через `executor.start()`
+    5) С помощью `executor.process()`
+  answer: "1"
+
+- id: tid150
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что вернёт следующий код?**
+    ```python
+    import asyncio
+
+    async def coro():
+        await asyncio.sleep(0)
+        return 42
+
+    loop = asyncio.new_event_loop()
+    result = loop.run_until_complete(coro())
+    loop.close()
+    print(result)
+    ```
+    1) `42`
+    2) `None`
+    3) `0`
+    4) Ошибка `RuntimeError`
+    5) Зависнет
+  answer: "1"
+
+- id: tid151
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой результат даст `collections.OrderedDict([('a', 1), ('b', 2)])['a'] = 3`?**
+    1) Изменит значение по ключу `'a'` на `3`
+    2) Добавит новый элемент с ключом `'a'` и значением `3`
+    3) Вызовет ошибку `KeyError`
+    4) Удалит элемент с ключом `'a'`
+    5) Ничего не сделает
+  answer: "1"
+
+- id: tid152
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что сделает следующий код?**
+    ```python
+    import sys
+
+    sys.setrecursionlimit(10)
+    def recurse(n):
+        if n == 0:
+            return 0
+        return recurse(n - 1)
+
+    print(recurse(5))
+    ```
+    1) Вернёт `0`
+    2) Вызовет `RecursionError`
+    3) Зависнет
+    4) Вернёт `5`
+    5) Выведет предупреждение
+  answer: "2"
+
+- id: tid153
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой результат вернёт `re.finditer(r'\d+', 'a12b34c')`?**
+    1) Итератор объектов `Match` с числами `12` и `34`
+    2) Список строк `['12', '34']`
+    3) Словарь `{12: '12', 34: '34'}`
+    4) Кортеж `('12', '34')`
+    5) Ошибку из‑за некорректного шаблона
+  answer: "1"
+
+- id: tid154
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Как получить все атрибуты класса, включая унаследованные?**
+    1) `dir(cls)`
+    2) `cls.__dict__`
+    3) `vars(cls)`
+    4) `inspect.getmembers(cls)`
+    5) `type(cls).__dict__`
+  answer: "1"
+
+- id: tid155
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что произойдёт при выполнении `json.dumps({'a': set([1, 2])})`?**
+    1) Сериализует множество в список
+    2) Вызовет `TypeError: Object of type set is not JSON serializable`
+    3) Игнорирует поле `'a'`
+    4) Преобразует множество в строку
+    5) Вернёт `'{"a": []}'`
+  answer: "2"
+
+- id: tid156
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой результат даст следующий код?**
+    ```python
+    from contextlib import contextmanager
+
+    @contextmanager
+    def cm():
+        print("Enter")
+        yield
+        print("Exit")
+
+    with cm():
+        raise ValueError("Error")
+    ```
+    1) Выведет `"Enter"`, затем `"Exit"`, затем выбросит `ValueError`
+    2) Выведет только `"Enter"`
+    3) Выведет `"Enter"`, затем сразу выбросит `ValueError`
+    4) Выведет `"Exit"` перед выбросом исключения
+    5) Поглотит исключение без вывода
+  answer: "1"
+
+- id: tid157
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что вернёт `asyncio.run(asyncio.wait([asyncio.sleep(1), asyncio.sleep(2)]))`?**
+    1) Два завершённых объекта `Task`
+    2) Один завершённый и один незавершённый объект `Task`
+    3) Список результатов `[None, None]`
+    4) Ошибку `InvalidArgument`
+    5) Кортеж `(set(), set())`
+  answer: "1"
+
+- id: tid158
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Как правильно создать метакласс, который автоматически добавляет метод `hello` ко всем классам?**
+    1) Определить `__new__` в метаклассе и добавить метод в `attrs`
+    2) Использовать декоратор класса
+    3) Переопределить `__init__` в метаклассе
+    4) Использовать `__prepare__`
+    5) Наследовать от `type` без изменений
+  answer: "1"
+
+- id: tid159
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Какой результат даст следующий код?**
+    ```python
+    from types import GeneratorType
+
+    def gen():
+        yield 1
+        yield 2
+
+    g = gen()
+    print(isinstance(g, GeneratorType), next(g), next(g))
+    ```
+    1) `True 1 2`
+    2) `False 1 2`
+    3) `True None None`
+    4) `TypeError`
+    5) `True 2 1`
+  answer: "1"
+
+- id: tid160
+  difficulty: 4
+  p: 0.7
+  alpha: 7
+  beta: 3
+  text: |
+    **Что вернёт `functools.partial(lambda x, y: x + y, 2)(3)`?**
+    1) `5`
+    2) `2`
+    3) `3`
+    4) Ошибку `TypeError`
+    5) `(2, 3)`
+  answer: "1"
+  
+
+- id: tid161
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что произойдёт при выполнении следующего кода с кастомным метаклассом и `__prepare__`?**
+    ```python
+    class CustomDict(dict):
+        def __setitem__(self, key, value):
+            super().__setitem__(key, value.upper() if isinstance(value, str) else value)
+
+    class Meta(type):
+        @classmethod
+        def __prepare__(cls, name, bases):
+            return CustomDict()
+
+    class A(metaclass=Meta):
+        x = 'hello'
+
+    print(A.x)
+    ```
+    1) Выведет `'HELLO'`
+    2) Выведет `'hello'`
+    3) Вызовет `AttributeError`
+    4) Вызовет `TypeError`
+    5) Ничего не сделает
+  answer: "1"
+
+- id: tid162
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат даст глубокий анализ байт‑кода с использованием `dis` для рекурсивной функции?**
+    ```python
+    import dis
+
+    def factorial(n):
+        if n <= 1:
+            return 1
+        return n * factorial(n - 1)
+
+    dis.dis(factorial)
+    ```
+    1) Показывает все инструкции байт‑кода, включая рекурсивный вызов
+    2) Показывает только первую итерацию
+    3) Вызовет ошибку из‑за рекурсии
+    4) Вернёт оптимизированный код без рекурсии
+    5) Зависнет при анализе
+  answer: "1"
+
+- id: tid163
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Как повлияет использование `__slots__` на сериализацию объекта через `pickle`?**
+    ```python
+    import pickle
+
+    class Slotted:
+        __slots__ = ['x', 'y']
+        def __init__(self, x, y):
+            self.x = x
+            self.y = y
+
+    obj = Slotted(1, 2)
+    data = pickle.dumps(obj)
+    restored = pickle.loads(data)
+    ```
+    1) Успешно восстановит объект с `__slots__`
+    2) Вызовет `PicklingError`
+    3) Восстановит объект без атрибутов
+    4) Создаст обычный словарь вместо объекта
+    5) Изменит `__slots__` на `__dict__`
+  answer: "1"
+
+- id: tid164
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что произойдёт при попытке асинхронного вызова синхронной блокирующей функции в `asyncio`?**
+    ```python
+    import asyncio
+    import time
+
+    async def main():
+        time.sleep(1)  # Блокирующий вызов
+        await asyncio.sleep(0.1)
+
+    asyncio.run(main())
+    ```
+    1) Заблокирует event loop на 1 секунду
+    2) Выполнится асинхронно без блокировки
+    3) Вызовет `RuntimeError`
+    4) Будет автоматически перенесён в поток
+    5) Оптимизирован компилятором
+  answer: "1"
+
+- id: tid165
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат вернёт сложный генератор с вложенными условиями и выражениями?**
+    ```python
+    result = [
+        x * y
+        for x in range(1, 4)
+        if x % 2 == 1
+        for y in range(x, 6)
+        if y % x == 0
+    ]
+    print(result)
+    ```
+    1) `[1, 3, 9, 15]`
+    2) `[1, 2, 3, 4, 5, 6, 8, 9, 12, 15]`
+    3) `[1, 3, 5]`
+    4) `[2, 4, 6]`
+    5) `[]`
+  answer: "1"
+
+- id: tid166
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Как правильно реализовать кэширование с ограничением по памяти для ресурсоёмкой функции?**
+    1) Использовать `functools.lru_cache(maxsize=N)`
+    2) Создать словарь с ручной очисткой
+    3) Применить `weakref.WeakValueDictionary`
+    4) Использовать `collections.OrderedDict` с ограничением размера
+    5) Реализовать собственный класс с `__call__` и очередью
+  answer: "1"
+
+- id: tid167
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что произойдёт при одновременном изменении словаря во время итерации?**
+    ```python
+    d = {i: i**2 for i in range(5)}
+    for k in d:
+        d[k + 10] = k * 2
+    ```
+    1) Вызовет `RuntimeError: dictionary changed size during iteration`
+    2) Успешно добавит новые элементы
+    3) Пропустит некоторые ключи
+    4) Завершит итерацию досрочно
+    5) Создаст копию словаря для итерации
+  answer: "1"
+
+- id: tid168
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат даст использование `asyncio.gather` с `return_exceptions=True` при наличии исключений?**
+    ```python
+    import asyncio
+
+    async def f1(): raise ValueError("Error 1")
+    async def f2(): return 42
+
+    results = asyncio.run(asyncio.gather(f1(), f2(), return_exceptions=True))
+    ```
+    1) `[ValueError('Error 1'), 42]`
+    2) Выбросит `ValueError`
+    3) `[None, 42]`
+    4) `[]`
+    5) `[Exception, 42]`
+  answer: "1"
+
+- id: tid169
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Как реализовать ленивую загрузку атрибутов класса через дескриптор?**
+    1) Создать дескриптор с `__get__`, который вычисляет значение при первом обращении
+    2) Использовать `property` с кэшированием
+    3) Переопределить `__getattr__`
+    4) Применить `__init__` с отложенным вычислением
+    5) Использовать `weakref`
+  answer: "1"
+
+- id: tid170
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что вернёт сложный `regex` с опережающей и ретроспективной проверкой?**
+    ```python
+    import re
+    text = "abc123def456ghi"
+    pattern = r'(?<=\d)(?=\w)'
+    matches = re.findall(pattern, text)
+    ```
+    1) `['d']` — символ после цифры и перед буквой
+    2) `['1', '2', '3', '4', '5', '6']`
+    3) `[]` — некорректный синтаксис
+    4) `['c', 'f']`
+    5) Ошибка компиляции регулярного выражения
+  answer: "3"
+
+
+- id: tid171
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Как повлияет `__slots__` на использование `__dict__` в классе?**
+    ```python
+    class WithSlots:
+        __slots__ = ['x']
+        def __init__(self):
+            self.x = 1
+
+    obj = WithSlots()
+    print(hasattr(obj, '__dict__'))
+    ```
+    1) Выведет `False` — атрибут `__dict__` отсутствует
+    2) Выведет `True` — `__dict__` создаётся автоматически
+    3) Вызовет `AttributeError` при обращении к `__dict__`
+    4) Создаст `__dict__`, но оставит его пустым
+    5) Поместит атрибут `x` и в `__slots__`, и в `__dict__`
+  answer: "1"
+
+- id: tid172
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что произойдёт при попытке сериализации объекта с циклическими ссылками через `pickle`?**
+    ```python
+    import pickle
+
+    a = {}
+    b = {'a': a}
+    a['b'] = b
+    data = pickle.dumps(a)
+    restored = pickle.loads(data)
+    ```
+    1) Успешно восстановит структуру с циклическими ссылками
+    2) Вызовет `PicklingError` из‑за цикла
+    3) Игнорирует циклическую ссылку
+    4) Создаст плоскую копию без циклов
+    5) Зависнет при сериализации
+  answer: "1"
+
+- id: tid173
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат даст использование `asyncio.as_completed` с задачами разной длительности?**
+    ```python
+    import asyncio
+
+    async def task(delay, value):
+        await asyncio.sleep(delay)
+        return value
+
+    async def main():
+        tasks = [task(2, 'slow'), task(1, 'fast')]
+        for coro in asyncio.as_completed(tasks):
+            result = await coro
+            print(result)
+
+    asyncio.run(main())
+    ```
+    1) Выведет `'fast'`, затем `'slow'`
+    2) Выведет `'slow'`, затем `'fast'`
+    3) Выведет оба результата одновременно
+    4) Вызовет ошибку из‑за разной длительности
+    5) Выполнит задачи последовательно
+  answer: "1"
+
+- id: tid174
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что вернёт сложный вызов `itertools.groupby` с пользовательской функцией сортировки?**
+    ```python
+    from itertools import groupby
+
+    data = [(1, 'a'), (2, 'b'), (1, 'c'), (2, 'd')]
+    result = [
+        key for key, group in groupby(sorted(data), key=lambda x: x[0])
+    ]
+    ```
+    1) `[1, 2]`
+    2) `[1, 1, 2, 2]`
+    3) `[(1, 'a'), (2, 'b')]`
+    4) `[]`
+    5) Ошибка из‑за некорректной функции `key`
+  answer: "1"
+
+- id: tid175
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Как правильно реализовать синглтон с использованием метакласса?**
+    ```python
+    class SingletonMeta(type):
+        _instances = {}
+        def __call__(cls, *args, **kwargs):
+            if cls not in cls._instances:
+                cls._instances[cls] = super().__call__(*args, **kwargs)
+            return cls._instances[cls]
+
+    class MyClass(metaclass=SingletonMeta):
+        pass
+    ```
+    1) Гарантирует создание только одного экземпляра `MyClass`
+    2) Создаёт новый экземпляр при каждом вызове
+    3) Вызывает ошибку из‑за циклической ссылки
+    4) Требует явного вызова `__new__`
+    5) Работает только для неизменяемых объектов
+  answer: "1"
+
+- id: tid176
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что произойдёт при использовании `weakref` на объект с циклическими ссылками?**
+    ```python
+    import weakref
+
+    class Node:
+        def __init__(self, value):
+            self.value = value
+            self.parent = None
+            self.children = []
+
+    root = Node('root')
+    child = Node('child')
+    root.children.append(child)
+    child.parent = root
+
+    ref = weakref.ref(root)
+    del root
+    print(ref() is None)
+    ```
+    1) Выведет `True` — объект удалён, несмотря на циклические ссылки
+    2) Выведет `False` — циклические ссылки предотвращают удаление
+    3) Вызовет `ReferenceError`
+    4) Сохранит объект в памяти через `children`
+    5) Автоматически разорвёт циклические ссылки
+  answer: "1"
+
+- id: tid177
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат даст применение `functools.reduce` с лямбда‑функцией для вычисления факториала?**
+    ```python
+    from functools import reduce
+
+    n = 5
+    result = reduce(lambda x, y: x * y, range(1, n + 1), 1)
+    print(result)
+    ```
+    1) `120`
+    2) `24`
+    3) `5`
+    4) `1`
+    5) Ошибка из‑за отсутствия начального значения
+  answer: "1"
+
+- id: tid178
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Как повлияет использование `__getattribute__` вместо `__getattr__` на доступ к атрибутам?**
+    ```python
+    class Custom:
+        x = 1
+        def __getattribute__(self, name):
+            return f"Accessed: {name}"
+
+    obj = Custom()
+    print(obj.x)
+    ```
+    1) Выведет `"Accessed: x"`
+    2) Выведет `1`
+    3) Вызовет `RecursionError` из‑за рекурсии
+    4) Вернёт `None`
+    5) Игнорирует существующий атрибут `x`
+  answer: "1"
+
+- id: tid179
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что произойдёт при выполнении асинхронного генератора с `yield` внутри `try/finally`?**
+    ```python
+    import asyncio
+
+    async def agen():
+        try:
+            yield 1
+            yield 2
+        finally:
+            print("Cleanup")
+
+    async def main():
+        async for item in agen():
+            print(item)
+            break
+
+    asyncio.run(main())
+    ```
+    1) Выведет `1`, затем `"Cleanup"`
+    2) Выведет только `1`
+    3) Выведет `1`, `2`, затем `"Cleanup"`
+    4) Пропустит блок `finally`
+    5) Вызовет `RuntimeError`
+  answer: "1"
+
+- id: tid180
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат даст сложный вызов `collections.Counter` с вложенными итерациями?**
+    ```python
+    from collections import Counter
+
+    data = [['a', 'b'], ['a', 'c'], ['b', 'c']]
+    result = Counter(item for sublist in data for item in sublist)
+    print(result['a'])
+    ```
+    1) `2`
+    2) `1`
+    3) `3`
+    4) `0`
+    5) Ошибка из‑за вложенного генератора
+  answer: "1"
+
+
+- id: tid181
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что произойдёт при попытке изменить замороженное (`frozen`) поле в `dataclass`?**
+    ```python
+    from dataclasses import dataclass
+
+    @dataclass(frozen=True)
+    class Point:
+        x: int
+        y: int
+
+    p = Point(1, 2)
+    p.x = 3
+    ```
+    1) Вызовет `FrozenInstanceError`
+    2) Успешно изменит значение `x` на `3`
+    3) Игнорирует присваивание без ошибок
+    4) Создаст новый экземпляр с обновлённым `x`
+    5) Изменит `x`, но оставит `y` неизменным
+  answer: "1"
+
+- id: tid182
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат даст использование `asyncio.create_task` внутри синхронного кода?**
+    ```python
+    import asyncio
+
+    async def coro():
+        return 42
+
+    task = asyncio.create_task(coro())  # Вне event loop
+    ```
+    1) Вызовет `RuntimeError: no running event loop`
+    2) Создаст задачу и запустит её автоматически
+    3) Вернёт объект `Task` без запуска
+    4) Выполнит корутину синхронно
+    5) Игнорирует вызов без ошибок
+  answer: "1"
+
+- id: tid183
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Как повлияет использование `__hash__` без `__eq__` на поведение словаря?**
+    ```python
+    class Hashable:
+        def __hash__(self):
+            return 42
+
+    obj1 = Hashable()
+    obj2 = Hashable()
+    d = {obj1: 'a', obj2: 'b'}
+    ```
+    1) В словаре будет два элемента, несмотря на одинаковый хэш
+    2) Второй элемент перезапишет первый
+    3) Вызовет `TypeError` из‑за отсутствия `__eq__`
+    4) Словарь будет содержать только один элемент с последним значением
+    5) Создаст исключение при добавлении второго элемента
+  answer: "1"
+
+- id: tid184
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что вернёт сложный вызов `functools.partial` с позиционными и ключевыми аргументами?**
+    ```python
+    from functools import partial
+
+    def func(a, b, c=0):
+        return a + b + c
+
+    partial_func = partial(func, 1, c=2)
+    result = partial_func(3)
+    ```
+    1) `6` (1 + 3 + 2)
+    2) `4` (1 + 3)
+    3) `3` (3 + 0)
+    4) Ошибка из‑за конфликта аргументов
+    5) `None`
+  answer: "1"
+
+- id: tid185
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат даст использование `threading.local()` для хранения данных в потоках?**
+    ```python
+    import threading
+
+    local_data = threading.local()
+    local_data.x = 1
+
+    def worker():
+        local_data.x = 2
+        print(local_data.x)
+
+    t = threading.Thread(target=worker)
+    t.start()
+    t.join()
+    print(local_data.x)
+    ```
+    1) Выведет `2`, затем `1`
+    2) Выведет `2`, затем `2`
+    3) Выведет `1`, затем `2`
+    4) Вызовет `AttributeError` в потоке
+    5) Выведет `1`, затем `1`
+  answer: "1"
+
+- id: tid186
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что произойдёт при использовании `asyncio.run()` внутри уже запущенного event loop?**
+    ```python
+    import asyncio
+
+    async def nested():
+        asyncio.run(asyncio.sleep(0))
+
+    asyncio.run(nested())
+    ```
+    1) Вызовет `RuntimeError: asyncio.run() cannot be called from a running event loop`
+    2) Успешно выполнит вложенный `run()`
+    3) Запустит новый event loop параллельно
+    4) Игнорирует вложенный вызов
+    5) Выполнит `sleep(0)` без ошибок
+  answer: "1"
+
+- id: tid187
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Как правильно реализовать асинхронный итератор?**
+    1) Реализовать методы `__aiter__` и `__anext__`
+    2) Использовать `async for` в обычном итераторе
+    3) Наследовать от `AsyncIterator`
+    4) Применить декоратор `@asynciterator`
+    5) Реализовать `__iter__` с `await`
+  answer: "1"
+
+- id: tid188
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что вернёт следующий код с использованием `types.MappingProxyType`?**
+    ```python
+    from types import MappingProxyType
+
+    original = {'a': 1}
+    proxy = MappingProxyType(original)
+    original['b'] = 2
+    print(proxy['b'])
+    ```
+    1) `2` — прокси отражает изменения оригинального словаря
+    2) `KeyError` — прокси не видит новые ключи
+    3) `None` — значение не установлено
+    4) `1` — только изначальные значения
+    5) Ошибка при создании прокси
+  answer: "1"
+
+- id: tid189
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат даст сложный вызов `inspect.signature` для функции с аннотацией `*args` и `**kwargs`?**
+    ```python
+    import inspect
+
+    def func(x: int, *args, y: str = 'default', **kwargs) -> bool:
+        pass
+
+    sig = inspect.signature(func)
+    params = list(sig.parameters.keys())
+    ```
+    1) `['x', 'args', 'y', 'kwargs']`
+    2) `['x', '*args', 'y', '**kwargs']`
+    3) `['x', 'y']`
+    4) `['x', 'args', 'kwargs']`
+    5) Ошибка из‑за некорректной аннотации
+  answer: "1"
+
+- id: tid190
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что произойдёт при попытке сериализации лямбда‑функции через `dill` (расширение `pickle`)?**
+    ```python
+    import dill
+
+    func = lambda x: x ** 2
+    data = dill.dumps(func)
+    restored = dill.loads(data)
+    print(restored(3))
+    ```
+    1) Выведет `9` — `dill` поддерживает сериализацию лямбд
+    2) Вызовет `PicklingError` как и стандартный `pickle`
+    3) Восстановит функцию, но не сможет её вызвать
+    4) Вернёт `None` при вызове
+    5) Зависнет при сериализации
+  answer: "1"
+
+- id: tid191
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Как повлияет использование `contextlib.ExitStack` для управления динамическим набором контекстных менеджеров?**
+    1) Позволяет добавлять контекстные менеджеры во время выполнения
+    2) Требует фиксированного списка контекстов при создании
+    3) Поддерживает только асинхронные контексты
+    4) Автоматически закрывает все контексты при выходе из блока
+    5) Не совместим с `with`
+  answer: "1"
+
+
+- id: tid192
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что произойдёт при использовании `gc.get_referrers()` на объекте с циклическими ссылками?**
+    ```python
+    import gc
+
+    a = []
+    b = [a]
+    a.append(b)
+    referrers = gc.get_referrers(a)
+    ```
+    1) Вернёт список объектов, ссылающихся на `a`, включая `b`
+    2) Вернёт пустой список из‑за циклических ссылок
+    3) Вызовет `RecursionError`
+    4) Игнорирует циклические ссылки и вернёт только прямые ссылки
+    5) Вызовет `TypeError` из‑за сложности структуры
+  answer: "1"
+
+- id: tid193
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат даст сложный вызов `asyncio.run_coroutine_threadsafe` из другого потока?**
+    ```python
+    import asyncio
+    import threading
+
+    async def coro():
+        return 42
+
+    def run_in_thread(loop):
+        future = asyncio.run_coroutine_threadsafe(coro(), loop)
+        print(future.result())
+
+    loop = asyncio.new_event_loop()
+    t = threading.Thread(target=run_in_thread, args=(loop,))
+    t.start()
+    t.join()
+    ```
+    1) Выведет `42` — корректно выполняет корутину в другом потоке
+    2) Вызовет `RuntimeError` из‑за несовместимости потоков
+    3) Зависнет без вывода результата
+    4) Вернёт `None` без выполнения корутины
+    5) Выполнит корутину в основном потоке
+  answer: "1"
+
+- id: tid194
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Как повлияет использование `__setattr__` с рекурсивным присваиванием на поведение класса?**
+    ```python
+    class RecursiveSetattr:
+        def __setattr__(self, name, value):
+            self.__dict__[name] = value  # Безопасное присваивание
+            self.other = 'set'  # Рекурсивный вызов __setattr__
+
+    obj = RecursiveSetattr()
+    obj.x = 1
+    print(obj.other)
+    ```
+    1) Выведет `'set'` — корректно обрабатывает рекурсию
+    2) Вызовет `RecursionError` из‑за бесконечной рекурсии
+    3) Игнорирует второе присваивание
+    4) Создаст атрибут `other` только в `__dict__`
+    5) Вызовет `AttributeError` при доступе к `other`
+  answer: "2"
+
+- id: tid195
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что вернёт следующий код с использованием `multiprocessing.Pool` и общей памяти?**
+    ```python
+    from multiprocessing import Pool, Array
+    import ctypes
+
+    shared_array = Array(ctypes.c_int, [1, 2, 3])
+
+    def worker(i):
+        shared_array[i] *= 2
+        return shared_array[i]
+
+    with Pool() as pool:
+        results = pool.map(worker, range(3))
+    print(results)
+    ```
+    1) `[2, 4, 6]` — корректно изменяет общую память
+    2) `[1, 2, 3]` — общая память не разделяется между процессами
+    3) Ошибка `TypeError` из‑за невозможности сериализации `Array`
+    4) `[None, None, None]` — процессы не возвращают значения
+    5) Зависнет из‑за блокировки общей памяти
+  answer: "1"
+
+- id: tid196
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат даст использование `inspect.getclosurevars` на замыкании с изменяемыми переменными?**
+    ```python
+    import inspect
+
+    def outer():
+        x = [1]
+        def inner():
+            x.append(2)
+            return x
+        return inner
+
+    closure = outer()
+    vars = inspect.getclosurevars(closure)
+    print(vars.nonlocals['x'])
+    ```
+    1) `[1, 2]` — отражает текущее состояние изменяемой переменной
+    2) `[1]` — фиксирует состояние на момент создания замыкания
+    3) `{}` — не может получить доступ к нелокальным переменным
+    4) `NameError` — переменная `x` не определена
+    5) `None` — замыкание не хранит переменные
+  answer: "1"
+
+- id: tid197
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что произойдёт при попытке использовать `asyncio.Lock` в синхронном коде?**
+    ```python
+    import asyncio
+
+    lock = asyncio.Lock()
+    lock.acquire()  # Синхронный вызов
+    ```
+    1) Вызовет `AttributeError`, так как нет метода `acquire` (опечатка)
+    2) Успешно приобретёт блокировку
+    3) Вызовет `RuntimeError` из‑за отсутствия event loop
+    4) Будет ждать вечно без ошибок
+    5) Игнорирует вызов без действий
+  answer: "1"
+
+- id: tid198
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Как правильно реализовать асинхронный контекстный менеджер, который обрабатывает исключения?**
+    ```python
+    class AsyncCM:
+        async def __aenter__(self):
+            return self
+        async def __aexit__(self, exc_type, exc_val, exc_tb):
+            if exc_type:
+                print(f"Caught {exc_type.__name__}")
+                return True  # Поглощает исключение
+    ```
+    1) Поглотит исключение и продолжит выполнение после `with`
+    2) Пропустит исключение без обработки
+    3) Вызовет `TypeError` из‑за асинхронного `__aexit__`
+    4) Требует `await` в блоке `with`
+    5) Автоматически перезапустит корутину
+  answer: "1"
+
+- id: tid199
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Что вернёт сложный вызов `functools.cmp_to_key` с пользовательской функцией сравнения?**
+    ```python
+    from functools import cmp_to_key
+
+    def compare(x, y):
+        return (x > y) - (x < y)  # Стандартный компаратор
+
+    sorted_list = sorted([3, 1, 4, 1, 5], key=cmp_to_key(compare))
+    ```
+    1) `[1, 1, 3, 4, 5]` — корректно сортирует по возрастанию
+    2) `[5, 4, 3, 1, 1]` — сортирует по убыванию
+    3) `[3, 1, 4, 1, 5]` — не изменяет порядок
+    4) Ошибка из‑за некорректной функции сравнения
+    5) `[]` — пустая последовательность
+  answer: "1"
+
+- id: tid200
+  difficulty: 5
+  p: 0.9
+  alpha: 9
+  beta: 1
+  text: |
+    **Какой результат даст использование `sys.settrace` для отладки рекурсивной функции?**
+    ```python
+    import sys
+
+    calls = 0
+    def tracer(frame, event, arg):
+        nonlocal calls
+        if event == 'call':
+            calls += 1
+        return tracer
+
+    def recurse(n):
+        if n <= 0:
+            return
+        recurse(n - 1)
+
+    sys.settrace(tracer)
+    recurse(3)
+    sys.settrace(None)
+    print(calls)
+    ```
+    1) `4` — учитывает все вызовы: `recurse(3)`, `recurse(2)`, `recurse(1)`, `recurse(0)`
+    2) `3` — считает только рекурсивные вызовы, исключая начальный
+    3) `0` — трассировка не работает для рекурсии
+    4) `1` — только первый вызов функции
+    5) Вызовет `SyntaxError` из‑за использования `nonlocal`
+  answer: "1"
