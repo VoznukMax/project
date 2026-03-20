@@ -1,0 +1,293 @@
+/* ===================== ОБЩИЕ СТИЛИ ===================== */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* ===================== ЗАГОЛОВКИ ===================== */
+h1, h2, h3 {
+    margin: 0.5em 0;
+    font-weight: 600;
+}
+h2 {
+    text-align: center;
+    color: #1e88e5;
+    font-size: 1.5em;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.main-header {
+    text-align: center;
+    max-width: 1200px;
+    margin: 10px auto 15px;
+    font-size: 2em;
+    color: #1e88e5;
+}
+
+/* ===================== СПИСОК ТЕСТОВ ===================== */
+.test-list {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.test-card {
+    background: #fff;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.test-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.test-card h3 {
+    margin: 0 0 6px 0;
+    color: #1e88e5;
+}
+
+.test-card small {
+    color: #555;
+}
+
+/* ===================== БЛОК ЗАДАЧИ ===================== */
+.task-box {
+    background: #fff;
+    padding: 15px;
+    flex: 1 1 40%;
+    margin: 10px 10px 10px 60px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.task-question {
+    font-size: 0.85em;
+    margin-bottom: 1px;
+    white-space: pre-wrap;
+    line-height: 0.8em;
+}
+
+.task-question strong,
+.task-question b {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 0.8em;
+}
+
+.task-question ul,
+.task-question ol {
+    padding-left: 1em;
+    margin: 2px 0;
+    line-height: 0.8em;
+}
+
+.task-question li {
+    margin-bottom: 1px;
+}
+
+.task-question p:last-child,
+.task-question div:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.task-question pre {
+    background: #f6f8fa;
+    padding: 10px 12px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 0.85em;
+    line-height: 1.3em;
+    margin: 6px 0;
+}
+
+.task-question code {
+    font-family: Consolas, Monaco, "Courier New", monospace;
+}
+
+input#answerInput {
+    width: 96.25%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-bottom: 12px;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+/* ===================== КНОПКИ ===================== */
+button {
+    padding: 12px 0;
+    min-width: 345px;
+    font-size: 0.95em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    background: #1e88e5;
+    color: #fff;
+    text-align: center;
+    outline: none;
+}
+
+button:hover:not(:disabled) {
+    background: #1565c0;
+    transform: translateY(-1px);
+}
+
+button:focus:not(:disabled) {
+    background: #1976d2;
+    box-shadow: 0 0 0 3px rgba(30, 136, 229, 0.4);
+}
+
+#btnFinish {
+    background: #f44336;
+}
+
+#btnFinish:hover:not(:disabled) {
+    background: #d32f2f;
+}
+
+#btnFinish:focus:not(:disabled) {
+    background: #e53935;
+    box-shadow: 0 0 0 3px rgba(244, 67, 54, 0.4);
+}
+
+/* ===================== КНОПКИ В РЯДУ ===================== */
+.task-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.btn-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* ===================== ПОДСКАЗКИ ===================== */
+.task-hint {
+    font-size: 0.9em;
+    color: #1565c0;
+    line-height: 1.1em;
+    text-align: justify;
+    max-width: 1420px;
+    width: 100%;
+    margin: 1px auto 1px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.task-hint p {
+    margin: 4px 0;
+    line-height: 1.2em;
+}
+
+.task-hint ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.task-hint li {
+    margin-bottom: 1px;
+}
+
+.hint-title {
+    text-align: center;
+    line-height: 0.1em;
+    margin: 1px auto 1px;
+    color: #1e88e5;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+/* ===================== DEBUG ===================== */
+.task-results {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+    max-height: 200px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.debug-correct {
+    color: #2e7d32;
+    font-weight: 500;
+}
+
+.debug-wrong {
+    color: #c62828;
+    font-weight: 500;
+}
+
+.debug-skipped {
+    color: #f9a825;
+    font-weight: 500;
+}
+
+.debug-pending {
+    color: #1565c0;
+    font-weight: 500;
+}
+
+/* ===================== БЛОК СПРАВА / DEBUG ===================== */
+.task-container {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.task-debug-right {
+    background: #fff;
+    padding: 15px;
+    flex: 1 1 40%;
+    margin: 10px 60px 10px 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.task-debug-right #debug-right {
+    font-size: 0.9em;
+    color: #555;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* ===================== STATUS INPUT STATES ===================== */
+.correct-input {
+    border-color: #2e7d32;
+}
+
+.wrong-input {
+    border-color: #c62828;
+}
+
+/* ===================== FOOTER ===================== */
+.footer {
+    text-align: center;
+    margin: 40px 0 20px;
+    color: #777;
+    font-size: 12px;
+}
